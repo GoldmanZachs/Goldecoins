@@ -13,7 +13,7 @@ import (
 )
 
 const (
-	endpoint = "https://www.dogeapi.com/wow/?api_key={API_KEY}&a={ACTION}"
+	endpoint = "https://www.dogeapi.com/wow/?"
 	apiHost  = "www.dogeapi.com"
 )
 
@@ -91,7 +91,7 @@ func (request *Request) buildPost(url_ string, filename string, filetype string)
 
 	request.Args["api_key"] = request.ApiKey
 
-	boundary, end := "----###---###--flickr-go-rules", "\r\n"
+	boundary, end := "such wow genius", "\r\n"
 
 	// Build out all of POST body sans file
 	header := bytes.NewBuffer(nil)
