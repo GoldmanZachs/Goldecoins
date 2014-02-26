@@ -1,0 +1,4 @@
+Goldecoins
+==========
+
+DogeAPI for GO
